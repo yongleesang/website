@@ -1,0 +1,5 @@
+<!-- The url tag's parameter format is app_name:url_mapping_name(defined in app's urls.py file.) -->
+<a href="{% url 'to_do_list:home' %}">Home Page</a>
+<a href="{% url 'to_do_list:to_do_list' %}" style="margin-left:10px">List To Dos</a>
+<br/><br/>
+{% block content %}{% endblock content%}
